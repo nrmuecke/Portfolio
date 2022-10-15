@@ -21,7 +21,7 @@ nav > ul {
     align-items: center;    
     margin-block: 0;
     float: right;
-    width: 40%;
+    width: 30%;
     height: 100%;
     list-style-type: none;
     color: white;
@@ -36,6 +36,13 @@ nav > ul {
 
 .welcome-text1 {
     padding-top: 300px;
+}
+
+.project-header {
+    text-align: center;
+    background-color: #776d5a;
+    display: flex;
+    justify-content: center;
 }
 
 #projects {
@@ -61,4 +68,21 @@ nav > ul {
 #projects::after {
     content: "";
     width: 350px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-logo {
+    height: 100px;
+    width: 200px;
 }
