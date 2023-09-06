@@ -29,7 +29,7 @@ nav > ul {
 
 #welcome-section {
     text-align: center;
-    height: 80vh;
+    height: 70vh;
     background-color: #0d1321;
     color: white;
 }
@@ -50,11 +50,11 @@ nav > ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     gap: 16px;    
     margin: 0 auto;
     padding: 20px 10px;
+    padding-left: 300px;
 }
 
 #projects img {
@@ -63,6 +63,10 @@ nav > ul {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.legit {
+    justify-content: flex-start;
 }
 
 #projects::after {
@@ -91,5 +95,9 @@ nav > ul {
     nav > ul {
         flex-direction: column;
         margin-right: -10px;
+    }
+    #projects {
+        justify-content: center;
+        padding-left: 0;
     }
 }
