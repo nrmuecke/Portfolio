@@ -35,7 +35,11 @@ nav > ul {
 }
 
 .welcome-text1 {
-    padding-top: 300px;
+    padding-top: 200px;
+}
+
+.welcome-text3 {
+    padding-top: 25px;
 }
 
 .project-header {
@@ -43,6 +47,10 @@ nav > ul {
     background-color: #776d5a;
     display: flex;
     justify-content: center;
+}
+
+#project-subheader {
+    margin-top: -30px;
 }
 
 #projects {
@@ -81,20 +89,31 @@ nav > ul {
 
 #contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 120px;
 }
 
 .github-logo {
     height: 100px;
     width: 200px;
+    margin-top: -20px;
+}
+
+.linkedin-logo {
+    height: 100px;
+    width: 125px;
+    margin-top: -20px;
+}
+
+#contact-header {
+    text-align: center;
 }
 
 @media (max-width: 650px) {
     nav > ul {
         flex-direction: column;
-        margin-right: -10px;
     }
     #projects {
         justify-content: center;
