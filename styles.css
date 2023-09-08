@@ -114,9 +114,15 @@ nav > ul {
 @media (max-width: 650px) {
     nav > ul {
         flex-direction: column;
+        padding-right: 10px;
     }
     #projects {
         justify-content: center;
         padding-left: 0;
+    }
+    .welcome-text1, .welcome-text2, .welcome-text3 {
+        max-width: 95%;
+        text-align: center;
+        margin: auto;
     }
 }
