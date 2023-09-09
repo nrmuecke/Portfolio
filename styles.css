@@ -38,8 +38,22 @@ nav > ul {
     padding-top: 200px;
 }
 
+.welcome-text2 {
+    padding-top: 10px;
+}
+
 .welcome-text3 {
+    width: 200px;
+    margin: auto;
     padding-top: 25px;
+}
+
+#tech-list {
+    padding-top: 5px;
+    list-style: none;
+    text-align: left;
+    width: 200px;
+    margin: auto;
 }
 
 .project-header {
