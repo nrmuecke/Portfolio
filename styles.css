@@ -29,13 +29,13 @@ nav > ul {
 
 #welcome-section {
     text-align: center;
-    height: 70vh;
+    height: 30vh;
     background-color: #0d1321;
     color: white;
 }
 
 .welcome-text1 {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .welcome-text2 {
@@ -51,7 +51,7 @@ nav > ul {
 #tech-list {
     padding-top: 5px;
     list-style: none;
-    text-align: left;
+    text-align: center;
     width: 200px;
     margin: auto;
 }
