@@ -10,7 +10,7 @@ body {
 nav {
     width: 100%;    
     height: 50px;
-    background-color: #50b2c0; 
+    background-color: #696047;
     position: fixed;
     top: 0;
 }
@@ -24,14 +24,22 @@ nav > ul {
     width: 30%;
     height: 100%;
     list-style-type: none;
-    color: white;
+    color: #50b2c0;
+}
+
+a:link {
+    color: #50b2c0
+}
+
+a:visited {
+    color: #50b2c0
 }
 
 #welcome-section {
     text-align: center;
-    height: 30vh;
+    height: 25vh;
     background-color: #0d1321;
-    color: white;
+    color: #baacbd;
 }
 
 .welcome-text1 {
@@ -48,19 +56,12 @@ nav > ul {
     padding-top: 25px;
 }
 
-#tech-list {
-    padding-top: 5px;
-    list-style: none;
-    text-align: center;
-    width: 200px;
-    margin: auto;
-}
-
 .project-header {
     text-align: center;
-    background-color: #776d5a;
+    background-color: #0d1321;
     display: flex;
     justify-content: center;
+    color: #baacbd
 }
 
 #project-subheader {
@@ -68,7 +69,7 @@ nav > ul {
 }
 
 #projects {
-    background-color: #776d5a;
+    background-color: #0d1321;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,6 +78,7 @@ nav > ul {
     margin: 0 auto;
     padding: 20px 10px;
     padding-left: 300px;
+    color: #baacbd
 }
 
 #projects img {
@@ -85,6 +87,15 @@ nav > ul {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    border: 1px solid #50b2c0;
+}
+
+#projects img:hover {
+    border: 3px solid #50b2c0;
+    max-width: 353px;
+    height: 303px;
+    margin-left: -1px;
+    margin-top: -1px;
 }
 
 .legit {
@@ -123,6 +134,7 @@ nav > ul {
 
 #contact-header {
     text-align: center;
+    
 }
 
 @media (max-width: 650px) {
